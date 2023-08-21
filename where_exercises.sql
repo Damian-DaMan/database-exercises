@@ -47,7 +47,7 @@ WHERE first_name IN ('Irena', 'Vidya', 'Maya');
 SELECT * FROM employees WHERE last_name LIKE 'E%';
 
 # Find all employees with a 'q' in their last name — 1,873 rows.
-Select * from employees where last_name like '%q';
+Select * from employees where last_name like '%q%';
 
 # ===================== part two
 
