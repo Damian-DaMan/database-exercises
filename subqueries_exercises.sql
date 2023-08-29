@@ -46,7 +46,7 @@ WHERE emp_no IN (SELECT emp_no
 #walkthrough
 SELECT first_name, last_name
 From employees
-Where gender = "f"
+Where gender = "F"
   AND emp_no In (SELECT emp_no
                  From dept_manager
                  Where to_date = '9999-01-01');
@@ -78,4 +78,3 @@ where emp_no = (
     ORDER BY salary DESC
     limit 1
     );
-
